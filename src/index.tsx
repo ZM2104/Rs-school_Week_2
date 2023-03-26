@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import SearchBar from './App';
+import SearchBar from './pages/Search';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Card from './pages/card';
 import PageNotFound from './pages/PageNotFound';
+import FormRoute from './pages/Form'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: '*',
     element: <PageNotFound />,
+  },
+  {
+    path: '/form',
+    element: <FormRoute/>,
   },
 ]);
 

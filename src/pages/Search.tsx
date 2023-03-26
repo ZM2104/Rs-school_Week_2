@@ -1,6 +1,6 @@
 import React, { useState, ChangeEvent } from 'react';
-import './SearchBar.css';
-import Navbar from './compenents/Navbar';
+import '../style.css';
+import Navbar from '../compenents/Navbar';
 
 export interface SearchBarProps {
   placeholder: string;

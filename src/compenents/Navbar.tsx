@@ -16,6 +16,9 @@ function Navbar() {
         <li>
           <a href="/card">About us</a>
         </li>
+        <li >
+        <a href="/form">Form</a>
+        </li>
       </ul>
     </div>
   );
